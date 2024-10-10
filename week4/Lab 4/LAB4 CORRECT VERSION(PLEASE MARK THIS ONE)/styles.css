@@ -1,0 +1,90 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+/*------------div container end-----------------------------------------*/
+.page-container div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+/*-------------div container end----------------------------------------*/
+/* header start---------------------------------------------------------*/
+header{
+    background-color: teal;
+    color: black;
+    text-align: center;  
+}
+header h1{
+    padding-top: 2%;
+    margin-top: 0;
+}
+
+header p{
+    padding-bottom: 2%;
+}
+/* header end---------------------------------------------------------*/
+/* selector menu start----------------------------------------------- */
+a {
+    text-decoration: none;
+    color: teal;
+}
+
+ul{
+    list-style-type: none;
+    margin: 1;
+    padding: 1;
+}
+
+li{
+    margin-bottom: 35px;
+    text-wrap: nowrap;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+/* selector menu end------------------------------------------------- */
+input,
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+/*image start---------------------------------------------------------*/
+img{
+    width: 190px;
+    height: auto;
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+/*image end-----------------------------------------------------------*/
+/*form start----------------------------------------------------------*/
+form {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+main form{
+    width: 1000px;
+}
+form button {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: hsl(120, 56%, 40%);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 5rem;
+    margin-left: auto;
+}
+/* form end---------------------------------------------------------- */
+/* footer */
+footer {
+    background-color: teal;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

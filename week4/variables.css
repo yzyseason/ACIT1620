@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+div, input, textarea{
+    border:2px solid black;
+    padding: 4px;
+
+}
+
+.container{
+    display: grid;
+    gap: 10px;
+
+.container{
+    --main-bg-colon:
+
+}
+}
+
+.one{
+    background-color: cornflowerblue;
+}
+
+.two{
+    color:black;
+    background-color: aquamarine;
+
+}
+
+.three{
+    background-color: cornflowerblue;
+}
+
+.four{
+    background-color: cornflowerblue;
+}
+
+.five{
+    background-color: cornflowerblue;
+}
+
+*
+p{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}

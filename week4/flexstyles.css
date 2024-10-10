@@ -1,0 +1,26 @@
+.box {
+    display: flex;
+    /*
+    border: 1px solid black;
+    flex-flow: row wrap;*/
+    /*align-items: flex-end;*/
+    justify-content: flex-end;
+}
+
+.one , .two , .three{
+    flex: none;
+    border: 1px solid aqua;
+    margin:10px;
+}
+/*
+.two{
+    flex: 1 1 auto;
+    border: 1px solid aqua;
+    margin:10px;
+}
+
+.three{
+    flex: 1 1 auto;
+    border: 1px solid aqua;
+    margin:10px;
+}
